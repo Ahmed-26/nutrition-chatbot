@@ -1,0 +1,34 @@
+food,category,calories,protein,carbs,fat,halal,vegan,keto,diabetic,gluten_free
+Chicken Breast,global,165,31,0,3,yes,no,yes,yes,yes
+Salmon,global,208,20,0,13,yes,no,yes,yes,yes
+Eggs,global,155,13,1,11,yes,no,yes,yes,yes
+Turkey,global,189,29,0,7,yes,no,yes,yes,yes
+Tofu,global,76,8,2,4,yes,yes,yes,yes,yes
+Paneer,regional,265,18,6,20,yes,no,no,yes,yes
+Lentils,global,116,9,20,0.4,yes,yes,no,yes,yes
+Chickpeas,global,164,9,27,2.6,yes,yes,no,yes,yes
+Kidney Beans,global,127,9,22,0.5,yes,yes,no,yes,yes
+Quinoa,global,120,4,21,2,yes,yes,no,yes,yes
+Brown Rice,global,123,3,26,1,yes,yes,no,yes,yes
+Oats,global,68,2.4,12,1.4,yes,yes,no,yes,yes
+Broccoli,global,55,4,11,0.5,yes,yes,yes,yes,yes
+Spinach,global,23,2.9,3.6,0.4,yes,yes,yes,yes,yes
+Sweet Potato,global,86,1.6,20,0.1,yes,yes,no,yes,yes
+Carrots,global,41,0.9,10,0.2,yes,yes,no,yes,yes
+Cauliflower,global,25,1.9,5,0.3,yes,yes,yes,yes,yes
+Green Peas,global,81,5,14,0.4,yes,yes,no,yes,yes
+Eggplant,global,25,1,6,0.2,yes,yes,yes,yes,yes
+Zucchini,global,17,1.2,3.1,0.3,yes,yes,yes,yes,yes
+Mushrooms,global,22,3.1,3.3,0.3,yes,yes,yes,yes,yes
+Apple,global,52,0.3,14,0.2,yes,yes,no,yes,yes
+Banana,global,89,1.1,23,0.3,yes,yes,no,yes,yes
+Strawberries,global,32,0.7,7.7,0.3,yes,yes,no,yes,yes
+Blueberries,global,57,0.7,14,0.3,yes,yes,no,yes,yes
+Avocado,global,160,2,9,15,yes,yes,yes,yes,yes
+Almonds,global,579,21,22,50,yes,yes,yes,yes,yes
+Walnuts,global,654,15,14,65,yes,yes,yes,yes,yes
+Pumpkin Seeds,global,446,19,54,19,yes,yes,yes,yes,yes
+Sunflower Seeds,global,584,21,20,51,yes,yes,yes,yes,yes
+Olive Oil,global,884,0,0,100,yes,yes,yes,yes,yes
+Yogurt,global,59,10,3.6,0.4,yes,no,no,yes,yes
+Cottage Cheese,regional,98,11,3.4,4.3,yes,no,no,yes,yes
