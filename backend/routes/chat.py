@@ -16,12 +16,23 @@ async def chat_with_bot(request: Request):
             "reply": "API key not found. Please set GOOGLE_AI_API_KEY in .env.",
             "session_id": session_id,
         }
+    # System prompt to keep bot focused on nutrition only
+    nutrition_system_prompt = (
+        "You are a nutrition expert. Only answer questions related to nutrition, diet, healthy eating, meal planning, and food science. "
+        "If asked anything outside nutrition, politely refuse and redirect to nutrition topics. "
+        "Base all answers strictly on the provided context and previous messages."
+    )
+    # Compose context for Gemini API
+    context_parts = [
+        {"text": nutrition_system_prompt},
+        {"text": user_message},
+    ]
     try:
         response = requests.post(
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
             params={"key": api_key},
             json={
-                "contents": [{"parts": [{"text": user_message}]}],
+                "contents": [{"parts": context_parts}],
             },
             timeout=10,
         )
